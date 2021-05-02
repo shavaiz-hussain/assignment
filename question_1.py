@@ -10,7 +10,7 @@ def activity_selection(start, finish, n):
 
 
 def inputs():
-    print('\033[93m' + "Please add space while entering number for start[] and finish[]" + '\033[0m')
+    print('\033[93m' + "Please add space while entering numbers of array i.e 1 2 3 4 5" + '\033[0m')
     _start = list(map(int, input("\nEnter the start[] : ").strip().split()))
     _finish = list(map(int, input("\nEnter the finish[] : ").strip().split()))
     _n = int(input("Enter numbers of N : "))

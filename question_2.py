@@ -24,7 +24,7 @@ def validate_equilibrium_inputs(array, n):
 
 
 def inputs():
-    print('\033[93m' + "Please add space while entering numbers of array" + '\033[0m')
+    print('\033[93m' + "Please add space while entering numbers of array i.e 1 2 3 4 5" + '\033[0m')
     print('\033[93m' + "Only add positive number" + '\033[0m')
     array = list(map(int, input("\nEnter the array : ").strip().split()))
     _n = int(input("Enter numbers of N : "))

@@ -19,7 +19,7 @@ def maxMeeting(l, n):
 
 
 def inputs():
-    print('\033[93m' + "Please add space while entering numbers of array" + '\033[0m')
+    print('\033[93m' + "Please add space while entering numbers of array i.e 1 2 3 4 5" + '\033[0m')
     s = list(map(int, input("\nEnter the S[] : ").strip().split()))
     f = list(map(int, input("\nEnter the F[] : ").strip().split()))
     n = len(s)
